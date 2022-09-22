@@ -7,7 +7,7 @@
 * requests: 使用`pip install requests`安装
 
 整体流程
-* 1.登录统一认证，拿到token，复制到AutoCheck.py中headers的`Authorization`
+* 1.[登录系统](https://labsafety.gdut.edu.cn/)，拿到token，复制到AutoCheck.py中headers的`Authorization`
 * 2.`python AutoCheck.py`运行
 
 **拿token截图** 
