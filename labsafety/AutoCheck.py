@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # @Time      :2022/9/22 14:56
-# @Author    :ym
+# @Author    :Ymir
 # @Description: 安全教育学习视频自动提交
 
 import requests
@@ -8,14 +8,16 @@ import json
 
 
 class AutoCheck(object):
-
+    """
+    自动提交视频播放，提交后后台会自动计时，建议提交后等待半个小时再提交，大概提交2-3次就能够全部观看完
+    """
     def __init__(self):
         self.headers = {
             "Accept": "application/json, text/plain, */*",
             "Accept-Encoding": "gzip, deflate, br",
             "Content-Type": "application/json;charset=UTF-8",
             # 这里填你们的token
-            "Authorization": "Bearer ead8347a-ef32-4f94-9401-a30ba3bd5969",
+            "Authorization": "",
             # "Authorization": "",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36",
 
